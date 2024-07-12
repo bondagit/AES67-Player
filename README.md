@@ -11,6 +11,10 @@ Play your AES67 audio streams directly on your Android devices for testing, prev
 
 The AES67 Linux Daemon is an open source Linux application and you can find it at: [AES67 Linux Daemon](https://github.com/bondagit/aes67-linux-daemon)
 
+Starting from version 2.0 the daemon is now able to capture and compress, using the AAC codec, AES67 sinks and serve them via HTTP Live Streaming supporting scalable audio distribution.
+
+The Player is able to playback the live streams up to 6 channels each. 
+
 The diagram below shows the various components and how they interact:
 ![Screenshot 2024-06-15 at 15 36 48](https://github.com/user-attachments/assets/8e2a8c58-c811-48c7-8954-4596331d862f)
 
